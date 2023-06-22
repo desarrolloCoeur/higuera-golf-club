@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import React from 'react'
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="relative overflow-hidden bg-no-repeat bg-cover">
         <div id="hero" className="max-h-[80vh]">
           <video id="hero-video" playsinline autoplay muted width="x" height="x" />
+            <source src='/video/higuera-golf-club.mp4' type="video/mp4"/>
         </div>
       </div>
       {/* <!-- Hero Section --> */}
@@ -108,10 +110,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
       {/* <!--Golf Course end--> */}
       <div className="my-32 uppercase max-w-screen-md mx-auto">
         <p className="text-center text-5xl text-main">Higuera Golf Club is truly one of the best golf experiences in all of México.</p>
       </div>
+
       {/* <!--Memberships, tournaments & events --> */}
       <div className="flex max-w-screen-xl mx-auto justify-around my-20 flex-wrap relative">
         <div id="open-popup-1">
@@ -132,20 +136,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        {/* <!-- 
-    <div id="open-popup-3">
-      <img className="p-4 my-10" src="img/5.jpg" alt="">
-      <a href="#">
-        <div className="text-center -mt-40   my-3 mx-14 py-2 sticky border-[1px] border-solid transition-all hover:bg-main ">
-          <h2 className="text-white text-2xl ">WEEDINGS & EVENTS</h2>
-          <p className="text-white text-xl">UNFORGETTABLE</p>
-        </div>
-      </a>
-    </div>--> */}
       </div>
-
-
-
     </main>
   )
 }

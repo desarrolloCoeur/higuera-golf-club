@@ -63,7 +63,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link block pr-2 lg:px-4 py-2 transition duration-150 ease-in-out"
-                    href="course-experience.html" data-mdb-ripple="true"
+                    href="course-experience" data-mdb-ripple="true"
                     data-mdb-ripple-color="light">COURSE
                     EXPERIENCE</a>
                 </li>
